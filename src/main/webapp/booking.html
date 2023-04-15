@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<style>
+	div{
+	margin:30px;
+	width: 450px;
+	height: 460px;
+	border-radius:10px;
+	background-color:lightblue;
+	box-shadow:5px 5px 5px black;
+	}
+	h1{
+	color:red;
+	box-shadow:5px 5px 5px black;
+	}
+	td{
+	font-size:20px;}
+	#inp{
+	width: 250px;
+	height: 25px;
+	font-size:17px;
+	text-align:center;}
+	#s{
+	width: 130px;
+	height: 30px;
+	box-shadow:5px 5px 5px black;
+	}
+	table
+	{
+	padding:15px;
+	}
+</style>
+</head>
+<body>
+	<center>
+	<div>
+	<br><br>
+	<form action="Booking" method="post">
+	<h1>Booking Details</h1>
+	<table>
+		<tr>
+			<td>From</td>
+			<td>:</td>
+			<td><input required placeholder="from"id="inp" name="from"></td>
+		</tr>
+		<tr>
+			<td>To</td>
+			<td>:</td>
+			<td><input required  placeholder="to"id="inp" name="to"></td>
+		</tr>
+		<tr>
+			<td>Journey Date</td>
+			<td>:</td>
+			<td><input type="date"id="inp"name="date"></td>
+		</tr>
+	</table>
+	<table>
+		<tr>
+			<td><input type="submit" id="s" value="Book"></td>
+			<td> </td>
+			<td><a href="home.html"><input type="button"id="s"  value="Cancle"></a></td>
+		</tr>
+	</table>
+	</form>
+	</div>
+	</center>
+</body>
+</html>
